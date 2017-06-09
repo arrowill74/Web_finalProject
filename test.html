@@ -13393,28 +13393,34 @@ AAAAAAAAAAAAAAAAAAAAAAAAACn/X4ABAPy8zY8ceTIoAAAAAElFTkSuQmCC" transform="matrix(
             </g>
         </g>
         <g id="圖層_3" class="blink">
-            <g id="pic3">
+            <g>
                 <path class="st216" d="M-21.8,738.3c0,8.3-15,22.5-15,22.5s-15-14.2-15-22.5c0-8.3,6.7-15,15-15S-21.8,730-21.8,738.3z" />
                 <circle class="st4" cx="-36.8" cy="738.1" r="7.8" />
             </g>
-            <a data-toggle="modal" data-target="#myModal">
-                <circle id="pic2" class="st215" cx="-36.9" cy="707.4" r="10.2" />
+            <a data-toggle="modal" data-target="#2Modal">
+                <circle class="st215" cx="-36.9" cy="707.4" r="10.2" />
             </a>
-            <a data-container="body" data-toggle="popover" data-placement="top" data-content="">
-                <circle id="pic1" class="st215" cx="-137.1" cy="709.2" r="10.2" />
+            <a data-toggle="modal" data-target="#1Modal">
+                <circle class="st215" cx="-137.1" cy="709.2" r="10.2" />
             </a>
         </g>
     </svg>
-    <div id="myModal" class="modal fade" role="dialog">
+    <div id="1Modal" class="modal fade" role="dialog">
         <div class="modal-dialog">
             <!-- Modal content-->
             <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    
-                </div>
                 <div class="modal-body">
-                    <img src="img/corner/1F/1F-1.jpg" class="img-responsive" />
+                    <img src="img/corner/1F/1F-3.jpg" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="2Modal" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="img/corner/1F/1F-7.jpg" class="img-responsive" />
                 </div>
             </div>
         </div>
@@ -13426,15 +13432,6 @@ AAAAAAAAAAAAAAAAAAAAAAAAACn/X4ABAPy8zY8ceTIoAAAAAElFTkSuQmCC" transform="matrix(
     <script src="js/custom.js"></script>
     <script>
     $(document).ready(getUrl());
-    </script>
-    <script>
-    // popover demo
-    $("[data-toggle=popover]").popover({
-        html: true,
-        content: function() {
-            return '<img src="img/corner/1F/1F-1.jpg" class="img-responsive" />';
-        }
-    })
     </script>
 </body>
 

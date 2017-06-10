@@ -16,18 +16,10 @@ body {
     border-radius: 4px;
 }
 
-.next {
-    color: white;
-    vertical-align: middle;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    height: 40px;
-    border: 1px white solid;
-    padding: 2px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
 .center {
     text-align: center;
+}
+
+.margin{
+    margin-top: 150px; 
 }

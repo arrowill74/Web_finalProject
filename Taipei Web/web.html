@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>熱門據點</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="web.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle pull-left collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/Logo.png" alt="icon" height="100%">
+                </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="../index.html">導航</a></li>
+                    <li><a href="web.html">熱門據點</a></li>
+                    <li><a href="../map.html">北捷地圖</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+    </nav>
+    <div class="tabs">
+        <ul class="nav">
+            <li class="active"><a data-toggle="tab" href="#home" class="navbar-inner">藝文</a></li>
+            <li><a data-toggle="tab" href="#menu1" class="navbar-inner">社區</a></li>
+            <li><a data-toggle="tab" href="#menu2" class="navbar-inner">信仰</a></li>
+            <li><a data-toggle="tab" href="#menu3" class="navbar-inner">餐飲</a></li>
+            <li><a data-toggle="tab" href="#menu4" class="navbar-inner">非營利</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="tab-content">
+            <!--======藝文======-->
+            <div id="home" class="tab-pane fade in active">
+                <!--<h3>藝文</h3>-->
+                <!--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>-->
+                <div class="biggest_container">
+                    <div class="every_spot_block" onclick="location.href='藝文1_印.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="印尼海員聯盟圖書室.png" alt="印尼海員聯盟圖書室" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>印尼海員聯盟圖書室</strong></ul>
+                            <ul><strong>地址 ：</strong>基隆市仁愛區孝四路26號2樓</ul>
+                            <ul><strong>電話 ：</strong>0989-814406</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='藝文2_燦.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="燦爛時光.png" alt="燦爛時光" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>燦爛時光東南亞書店</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市中和區興南路一段135巷1號</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='藝文_3 書攤.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="北車大廳F24行動書攤.png" alt="北車大廳F24行動書攤" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>北車大廳F24行動書攤</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中正區忠孝西路一段49號</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='藝文_4 就諦學堂.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="就諦學堂.png" alt="就諦學堂" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>就諦學堂</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中正區忠孝西路一段50號21樓</ul>
+                            <ul><strong>電話 ：</strong>0910-672478</ul>
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='藝文_5 紋鳴號咖啡店.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="紋鳴號咖啡店.png" alt="紋鳴號咖啡店" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>紋鳴號咖啡店</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市文山區萬美街一段63號</ul>
+                            <ul><strong>電話 ：</strong>(02）2239-0570</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                </div>
+            </div>
+            <!--======藝文END======-->
+            <!--======社區======-->
+            <div id="menu1" class="tab-pane fade">
+                <!--<h3>Menu 1</h3>-->
+                <div class="biggest_container">
+                    <div class="every_spot_block" onclick="location.href='社區_1 小印尼區.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <div class="photo">
+                            <img class="picture" src="小印尼區.png" alt="小印尼區" width="105px" height="105px">
+                        </div>
+                        <div class="content">
+                            <ul><strong>小印尼區</strong></ul>
+                            <ul><strong>地址 ：</strong>台北火車站東口北平西路一帶</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='社區_2 華越文化廣場.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="華越文化廣場（小越南）.png" alt="華越文化廣場（小越南）" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>華越文化廣場（小越南）</strong></ul>
+                            <ul><strong>地址 ：</strong>北市萬華區龍山商場B1</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='社區_3 小菲律賓區.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="小菲律賓區.png" alt="小菲律賓區" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>小菲律賓區</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山北路2段、3段</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='社區_4 金萬萬名店城.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="金萬萬名店城.png" alt="金萬萬名店城" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>金萬萬名店城</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山北路二段25-52號</ul>
+                            <ul><strong>電話 ：</strong>（02）2594-7914</ul>
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='社區_5 越南街.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="越南街.png" alt="越南街" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>越南街</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市文山區興隆路四段105巷31號（安康市場）</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='社區_6 緬甸街.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="緬甸街.png" alt="緬甸街" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>緬甸街</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市中和區華新街</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                </div>
+            </div>
+            <!--======社區END======-->
+            <!--======信仰======-->
+            <div id="menu2" class="tab-pane fade">
+                <!--<h3>Menu 2</h3>-->
+                <div class="biggest_container">
+                    <div class="every_spot_block" onclick="location.href='信仰_1 聖多福教堂.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <!--放圖片在左文字在右（文繞圖）-->
+                        <img class="picture" src="聖多福教堂.png" alt="聖多福教堂" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>聖多福教堂</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山區中山北路3段51號</ul>
+                            <ul><strong>電話 ：</strong>（02）2594-7914</ul>
+                            <!--<ul>簡介 ：這個地方有XXXXXX</ul>-->
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='信仰_2 台北清真寺.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台北清真寺.png" alt="台北清真寺" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台北清真寺</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市新生南路二段62號</ul>
+                            <ul><strong>電話 ：</strong>(02)2504-8088</ul>
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='信仰_3 台北文化清真寺.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台北文化清真寺.png" alt="台北文化清真寺" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台北文化清真寺</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中正區羅斯福路3段178巷18弄3號</ul>
+                            <ul><strong>電話 ：</strong>（02）2367-5231</ul>
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                </div>
+            </div>
+            <!--======信仰END======-->
+            <!--======餐飲======-->
+            <div id="menu3" class="tab-pane fade">
+                <!--<h3>Menu 3</h3>-->
+                <div class="biggest_container">
+                    <div class="every_spot_block" onclick="location.href='餐飲_1 米多go.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <!--放圖片在左文字在右（文繞圖）-->
+                        <img class="picture" src="米多go.png" alt="米多go" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>米多go</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市三重區光明路32巷33號1樓</ul>
+                            <ul><strong>電話 ：</strong>（02）2321-9445</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='餐飲_2 八福印尼便利商店.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="八福印尼便利商店.png" alt="八福印尼便利商店" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>八福印尼便利商店</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市永和區得和路32號</ul>
+                            <ul><strong>電話 ：</strong>0987-523070</ul>
+                        </div>
+                        <!--放圖片在左文字在右（文繞圖）-->
+                    </div>
+                </div>
+            </div>
+            <!--======餐飲END======-->
+            <!--======非營利======-->
+            <div id="menu4" class="tab-pane fade">
+                <!--<h3>Menu 4</h3>-->
+                <div class="biggest_container">
+                    <div class="every_spot_block" onclick="location.href='非營利_1 財團法人賽珍珠基金會.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <!--放圖片在左文字在右（文繞圖）-->
+                        <img class="picture" src="財團法人賽珍珠基金會.png" alt="財團法人賽珍珠基金會" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>財團法人賽珍珠基金會</strong></ul>
+                            <ul><strong>地址 ：台北市中山區中山區長春路232號4樓</strong></ul>
+                            <ul><strong>電話 ：</strong>（02）2504-8088</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_2 嘉祿國際移民中心台灣分會.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="嘉祿國際移民中心台灣分會.png" alt="嘉祿國際移民中心台灣分會" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>嘉祿國際移民中心台灣分會</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山北路三段51號1樓</ul>
+                            <ul><strong>電話 ：</strong>（02）2369-1001</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_3 台灣國際勞工協會（TIWA）.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台灣國際勞工協會（TIWA）.png" alt="台灣國際勞工協會（TIWA）" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台灣國際勞工協會（TIWA）</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山區德惠街3巷10號</ul>
+                            <ul><strong>電話 ：</strong>（02）2595-6755</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_4 台灣新住民家庭成長協會.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台灣新住民家庭成長協會.png" alt="台灣新住民家庭成長協會" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台灣新住民家庭成長協會</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中正區和平西路一段56號4樓之5</ul>
+                            <ul><strong>電話 ：</strong>（02）2369-1001</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_5 新事社會服務中心.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="新事社會服務中心.png" alt="新事社會服務中心" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>新事社會服務中心</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市和平東路一段183巷24號</ul>
+                            <ul><strong>電話 ：</strong>（02）2393-1423</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_6 台灣外籍勞動者發展協會（GWO）.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台灣外籍勞動者發展協會（GWO）.png" alt="台灣外籍勞動者發展協會（GWO）" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台灣外籍勞動者發展協會（GWO）</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市忠孝西路一段72號</ul>
+                            <ul><strong>電話 ：</strong>（02）2311-1661</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_7 天主教善牧社會福利基金會.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="天主教善牧社會福利基金會.png" alt="天主教善牧社會福利基金會" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>天主教善牧社會福利基金會</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中正區中山北路一段2號</ul>
+                            <ul><strong>電話 ：</strong>（02）2381-5402</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_8 國際家庭互助協會（TIFA）北部辦公室.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="國際家庭互助協會（TIFA）北部辦公室.png" alt="國際家庭互助協會（TIFA）北部辦公室" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>國際家庭互助協會（TIFA）北部辦公室</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市三重區光明路32巷33號</ul>
+                            <ul><strong>電話 ：</strong>（02）2977-8015</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_9 南洋台灣姐妹會（北部辦公室）.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="南洋台灣姐妹會（北部辦公室）.png" alt="南洋台灣姐妹會（北部辦公室）" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>南洋台灣姐妹會（北部辦公室）</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市永和區忠孝街15號1樓</ul>
+                            <ul><strong>電話 ：</strong>（02）2921-0565</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_10 天主教希望職工中心.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="天主教希望職工中心.png" alt="天主教希望職工中心" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>天主教希望職工中心</strong></ul>
+                            <ul><strong>地址 ：</strong>新竹市中正路156-1號</ul>
+                            <ul><strong>電話 ：</strong>（03）525-4198</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_11 台灣新住民關懷協會.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="台灣新住民關懷協會.png" alt="台灣新住民關懷協會" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>台灣新住民關懷協會</strong></ul>
+                            <ul><strong>地址 ：</strong>新北市中和市連城路134巷18號之一5樓</ul>
+                            <ul><strong>電話 ：</strong>（02）2243-9270</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_12 移人.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="移人.png" alt="移人" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>移人</strong></ul>
+                            <ul><strong>地址 ：</strong>N/A</ul>
+                            <ul><strong>電話 ：</strong>N/A</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_13 四方報.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="四方報.png" alt="四方報" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>四方報</strong></ul>
+                            <ul><strong>地址 ：</strong>（02）8693-2069</ul>
+                            <ul><strong>電話 ：</strong>新北市汐止區福德二路359巷7號5樓</ul>
+                        </div>
+                    </div>
+                    <div class="every_spot_block" onclick="location.href='非營利_14 One-Forty.html';" style="cursor :pointer;">
+                        <!--每個block都要讓他flex left-->
+                        <img class="picture" src="One-Forty.png" alt="One-Forty" width="105px" height="105px">
+                        <div class="content">
+                            <ul><strong>One-Forty</strong></ul>
+                            <ul><strong>地址 ：</strong>台北市中山區玉門街一號（台北創新中心 CIT ）</ul>
+                            <ul><strong>電話 ：</strong>（02）2585-2140</ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--======非營利END======-->
+        </div>
+    </div>
+</body>
+
+</html>

@@ -47,6 +47,7 @@
         <form action="" role="form"></form>
         <div class="form-group">
             <select class="form-control" id="start">
+                <option selected hidden>請選擇起點</option>
                 <option value="hall">北車大廳</option>
                 <option value="red">紅線月台</option>
                 <option value="blue">藍線月台</option>
@@ -58,7 +59,8 @@
         </div>
         <form action="" role="form"></form>
         <div class="form-group">
-            <select class="form-control" id="end">
+            <select disabled class="form-control" id="end">
+                <option value="unchecked" selected hidden>請選擇終點</option>
                 <option value="hall">北車大廳</option>
                 <option value="red">紅線月台</option>
                 <option value="blue">藍線月台</option>

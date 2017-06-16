@@ -2,13 +2,14 @@ body {
     padding-top: 50px;
 }
 
-.navbar-brand{
+.navbar-brand {
     position: absolute;
     left: 50%;
     margin-left: -50px !important;
     /* 50% of your logo width */
     display: block;
 }
+
 .navbar-toggle {
     position: relative;
     float: left;
@@ -22,21 +23,27 @@ body {
     border: 1px solid transparent;
     border-radius: 4px;
 }
+
 img {
-  display:block;
-  margin: auto;
-  /* max-width: 500px; 建議可加上「最大寬度」讓圖片不會過大。500px只是一個例子*/
+    display: block;
+    margin: auto;
+    /* max-width: 500px; 建議可加上「最大寬度」讓圖片不會過大。500px只是一個例子*/
 }
 
-#home{
-  text-align:center;
+#home {
+    text-align: center;
 }
-input[type=submit] { /******** 改變提交按鈕樣式 ********/
-	padding:5px 35px; background:#2A66A9; border:0 none;
-    cursor:pointer;
+
+input[type=submit] {
+    /******** 改變提交按鈕樣式 ********/
+    padding: 5px 35px;
+    background: #2A66A9;
+    border: 0 none;
+    cursor: pointer;
     -webkit-border-radius: 5px;
     border-radius: 0px;
 }
-.intro{
-  margin:20px;
+
+.intro {
+    margin: 20px;
 }

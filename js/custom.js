@@ -1,19 +1,26 @@
 var start, end, url;
 
+$("#start").change(function() {
+    $("#end").removeAttr('disabled');
+    var filter = $(this).val();
+    $('#end option').each(function() {
+        if ($(this).val() === filter || $(this).val() === 'unchecked') {
+            $(this).hide();
+        } else {
+            $(this).show();
+        }
+    })
+})
+
 // index button
 $("#go").click(function() {
     start = document.getElementById("start").value;
     localStorage.setItem("start", start);
     end = document.getElementById("end").value;
     localStorage.setItem("end", end);
-    if (start === end) {
-        window.alert("啊不是同個地方嗎？選屁呀！");
-    } else {
-
-        url = "pages/" + start + "/" + end + "/1.html";
-        localStorage.setItem("url", url);
-        window.location.href = url;
-    }
+    url = "pages/" + start + "/" + end + "/1.html";
+    localStorage.setItem("url", url);
+    window.location.href = url;
 })
 
 $("#return").click(function() {

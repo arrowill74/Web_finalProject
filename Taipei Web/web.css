@@ -63,12 +63,17 @@ body {
     .every_spot_block {
         display: flex;
         flex: left;
-        padding: 1px;
+        padding: 5px;
         margin-top: 10px;
+        margin-bottom: 10px;
     }
     .photo {
         max-width: 30%;
         max-height: 30%;
+    }
+    .content ul {
+        margin-left: -20px;
+        margin-top: 2px;
     }
     /*.navbar-inner {
         background-color: black;

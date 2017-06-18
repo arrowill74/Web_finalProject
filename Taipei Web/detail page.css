@@ -31,10 +31,12 @@ iframe {
     margin: auto;
 }
 
-img {
-    display: block;
-    margin: auto;
-    /* max-width: 500px; 建議可加上「最大寬度」讓圖片不會過大。500px只是一個例子*/
+.picmask {
+    background-image: url(聖多福教堂.png);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    background-position: center center;
 }
 
 #home {
